@@ -1,0 +1,163 @@
+
+body{
+    background-size: cover;
+    margin: 0;
+    font-family: 'Amatic SC', cursive;
+font-family: 'Charm', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Code Pro', monospace;
+/* background-image: url("https://www.phxkravfit.com/wp-content/uploads/2017/12/background-2203989_960_720.jpg");  */
+background-image: url("https://optimizerwp.b-cdn.net/wp-content/uploads/2015/09/Video-Featured-final.jpg");
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVpxzFCzRXJG1REAQuwgyCxCg8HjV20oFY8A&usqp=CAU");
+}
+
+i{
+    position: absolute;
+    padding: 10px 15px;
+    /* background-color: blueviolet; */
+}
+
+ul{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    height: 46px;
+    /* background-color: black; */
+    /* background-color: blueviolet; */
+    /* color: black; */
+    border: none;
+    /* border: 1px solid black; */
+}
+li{
+    text-transform: uppercase;
+    font-size: 1.1em;
+    /* border-bottom: 1px solid black ; */
+    /* margin-left: 10px; */
+    display: block;
+    list-style: none;
+    float: left;
+    padding: 13px;
+    /* margin-right: 5px; */
+    /* border: 1px solid red; */
+    color: white;
+    transition: 0.7s;
+}
+
+.navbar-icons{
+    padding-right: 5px;
+}
+
+.input-icon{
+position: absolute;
+padding: 10px 12px;
+}
+li:hover{
+    letter-spacing: 2px;
+    /* font-size: 1.2em; */
+    background-color: black;
+    /* color: black; */
+    cursor: pointer;
+}
+/* #home{
+    font-size: 1.1em;
+    background-color: black;
+    color: white;
+} */
+#right{
+margin-left: 67%;
+}
+
+
+#homeContainer{
+    position: absolute;
+border: 2px solid black;
+
+width: 60vw;
+height: 70vh;
+margin-left: 3%;
+margin-top: 4%;
+/* background-image: url("https://assetscdn1.paytm.com/images/catalog/view_item/809173/1620129129336.jpg");
+background-size: cover; */
+}
+
+#popUpForm{
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 97%;
+    height: 90%;
+    /* border: 2px solid black; */
+    z-index: 2;
+}
+/* a{
+    transition: 0.7s;
+}
+a:hover{
+    color: white;
+} */
+input{
+    /* padding: 5px; */
+    /* margin: 5px; */
+    width: 73%;
+    padding: 10px 35px;
+     outline: none;
+    /* border: none;  */
+}
+#register{
+    /* margin-top: 2%; */
+    text-align: center;
+}
+label{
+    margin: 5px;
+}
+/* h2{
+    margin-bottom: 12%;
+} */
+
+#one{
+    /* background-image: url("background.jpg"); */
+/* background-size: cover; */
+border: 2px solid red;
+}
+
+form{
+    border-top: 1px solid black;
+    /* background-color: lightgreen; */
+    /* background-image: url("https://www.phxkravfit.com/wp-content/uploads/2017/12/background-2203989_960_720.jpg");  */
+    width: 32%;
+    border-radius: 20px;
+    box-shadow: 2px 2px;
+    height: 70%;
+    display: none;
+    /* display: grid;
+    align-items: center;
+    justify-content: center; */
+    grid-template-columns: 75%;
+    transition: 2s;
+}
+
+span{
+    border-bottom: 4px solid black;
+}
+
+#login{
+    transition: 0.7s;
+    width: 100%;
+    border: 1px solid black;
+    background-color: blueviolet;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    /* margin-top: 1%; */
+}
+
+#login:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    letter-spacing: 6px;
+}
